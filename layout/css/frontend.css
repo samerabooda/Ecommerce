@@ -1,0 +1,160 @@
+/* CSS Document */
+
+/*start main ruls*/
+body{
+	background-color: #f4f4f4;
+	font-size: 16px;
+	height: 3000px;
+}
+
+/*end main rules*/
+/* start login form*/
+.login-page{
+	width: 500px;
+	margin: 50px auto;
+}
+.login-page h1{
+	margin-bottom: 50px;
+}
+.login-page input {
+	margin-bottom: 10px;
+}
+
+.login-page .form-control{
+	background-color: #EAEAEA;
+}
+ .login-page [data-class="login"].selected{
+	color: #337AB7;
+}
+ .login-page [data-class="signup"].selected{
+	color: #5cb85c;
+}
+.login-page h1 span{
+	cursor: pointer;
+}
+.login-page h1{
+	color: #C0C0C0;
+}
+.login-page .signup{
+	display: none;
+} 
+
+/*end login form*/
+
+/*start bootstrap edit*/
+	
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0; 	
+}
+.nav>li>a,
+.navbar-brand{
+	padding: 15px 12px;
+}
+.navbar-brand{
+	font-size: 1em;
+}
+.navbar-inverse .navbar-nav>.open>a,
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover,
+.dropdown-menu{
+background-color:#bdc3c7;
+}
+
+.dropdown-menu{
+	min-width :180px;
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu > li > a {
+	color: #fff;
+	padding: 10px 15px;
+}
+
+/* startpage*/
+h1{
+	font-size: 55px;
+	margin: 20px 0;
+	font-weight: bold;
+	color: #c0c0c0;
+}
+
+.upper-bar{
+	background-color: #fff;
+	padding: 10px;
+} 
+.my-img{
+width:30px;
+height: 30px;
+
+
+}
+/* endpagepage*/
+/*start ctegories page*/
+.item-box{
+	position: relative;
+}
+.item-box .price-tag{
+	
+	color: #fff;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	font-weight: bold;
+	padding: 2px;
+}
+.item-box img{
+	width: 100%;
+}
+.information{
+	margin-top: 20px;
+}
+.information ul{
+	margin:0;
+	padding: 0;
+}
+.information ul li{
+	padding: 10px;
+}
+.information ul li span{
+	display: inline-block;
+	
+}
+.thumbnail .date{
+	text-align: right;
+	font-size: 13px;
+	color: #aaa;
+	font-weight: bold;
+}
+/*the srart item page*/
+.item-info ul li{
+	padding: 10px;
+}
+.add-comment h3{
+	margin: 0 0 10px;
+}
+.add-comment form{
+	width: 500px;
+
+}
+.add-comment textarea{
+	margin:20px 0;
+	height: 100px;
+}
+.comment-box{
+	margin-bottom: 20px;
+}
+.comment-box img{
+	max-width: 100px;
+	display: block;
+	margin: auto;
+	margin-bottom: 15px;
+}
+.comment-box .lead{
+	background-color: #aaa;
+	padding: 10px;
+	margin-top:30px;
+}
